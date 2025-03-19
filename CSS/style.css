@@ -28,7 +28,9 @@ body {
   border-radius: 50%;
   border: 3px solid black;
 }
-
+h3{
+  text-align: center;
+}
 .info, .social, .profile, .studies, .tech-stack {
   border: 2px solid black;
   padding: 50px;
