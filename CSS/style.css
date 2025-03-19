@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #026773;
+  width: 100%;
+  padding: 20px;
+}
+
+.side {
+  flex: 1;
+  padding: 20px;
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.info, .social, .profile, .studies, .tech-stack {
+  border: 2px solid black;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin: 10px;
+  background-color: #328181;
+  border-radius: 40px;
+}
+
+.social a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 5px 0;
+}
+
+.studies, .tech-stack {
+  text-align: center;
+}
+
+.button{
+  width: auto;
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+button {
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
